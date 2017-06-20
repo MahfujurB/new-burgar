@@ -1,0 +1,78 @@
+img{
+	width: 100%;
+	height: 100%;
+}
+.hero{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/images.jpg);
+	background-size: cover;
+}
+.hero p{
+	text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color: white;
+}
+.hero h1{
+	text-align: center;
+    font-size: 136px;
+    color: white;
+}
+.hero-bottun{
+	width: 185px;
+    height: 50px;
+    margin: 60px 0px 0px 600px;
+    background-color: #ff511c;
+}
+.hero-bottun h5{
+	text-align: center;
+    padding-top: 12px;
+}
+.hero-bottun a{
+	text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.header{
+	width: 100%;
+    height: 60px;
+}
+.ar{
+	width: 35%;
+    height: 60px;
+    float: left;
+    margin-left: 60px;
+}
+.ar a{
+	color: black;
+	text-decoration: none;
+}
+.farst{
+	color: #ff511c;
+}
+.second{
+	color: #cccccc;
+}
+.menu{
+	width: 55%;
+    height: 60px;
+    float: left;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 20px;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.one{
+	color: #999;
+}
+.menu li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
