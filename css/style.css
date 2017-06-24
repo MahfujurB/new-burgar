@@ -129,7 +129,7 @@ div#captioned-gallery {
 }
 figure.slider { 
   position: relative; width: 500%;
-  font-size: 0; animation: 30s slidy infinite; 
+  font-size: 0; animation: 5s slidy infinite; 
 }
 figure.slider figure { 
   width: 20%; height: 100%;
@@ -141,4 +141,62 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
+}
+.sheel{
+	width: 100%;
+    height: 350px;
+    background-color: #262b36;
+    position: relative;
+}
+.sheel h2{
+	text-align: center;
+    color: #ff511c;
+    padding-top: 35px;
+}
+.sheel p{
+	margin: 30px 433px 0px 440px;
+	color: white;
+	font-size: 18px;
+	padding-top: 20px;
+	text-align: center;
+}
+.sheel p a{
+	color: #ff511c;
+}
+.sheel a:hover{
+	color: white;
+}
+.a-p{
+	width: 50%;
+    height: 100px;
+    margin: 30px 0px 0px 313px;
+    position: absolute;
+}
+.a-p li{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	padding-top: 25px;
+}
+.a-p li:first-child{
+	padding-left: 190px;
+}
+.a-p li:nth-child(2){
+	padding-left: 30px;
+}
+.a-p:before{
+	top: 0;
+    width: 270px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    content: '';
+    position: absolute;
+    left: 35%;
+}
+.a-p:after{
+	top: 2px;
+    height: 45px;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    content: '';
+    position: absolute;
+    left: 54%;
 }
