@@ -219,21 +219,45 @@ figure.slider figure figcaption {
 	font-size: 16px;
     padding-top: 20px;
 }
-.speakers-img{
-	width: 100%;
-    height: 270px;
+
+*:hover {
+    outline: none !important;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
 }
-.lana-peterson{
-	width: 20%;
-    height: 255px;
-    float: left;
-    margin-left: 53px;
-    cursor: pointer;
+.layar{
+	margin-top: 220px;
 }
-.lana-peterson img{
-	max-width: 100%;
-    height: auto;
+.layar h4:hover{
+	color: #ff511c;
 }
-.lana-peterson p{
+.layar p{
 	font-style: italic;
+	line-height: 0px;
+}
+/*
+Extra
+*/
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
 }
