@@ -279,8 +279,64 @@
     </a>
   </div>
 </div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
 
+<h2>Animated Sidenav Example</h2>
+<p>Click on the element below to open the side navigation menu.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+ <div id="wrapper" class="">
+         <div class="overlay" style="display: none;"></div>
+         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+               <li class="sidebar-brand">
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"> BLESM </a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-camera"></i> Photo</a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-facetime-video"></i> Video</a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-headphones"></i> Music</a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-cloud"></i> Cloud</a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-th"></i> Apps</a>
+               </li>
+               <li>
+                  <a href="https://github.com/FragCoder/bootstrap-left-slide-menu"><i class="glyphicon glyphicon-cog"></i> Settings</a>
+               </li>
+            </ul>
+         </nav>
+         <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+               ...YOUR CONTENT...
+                </div>
+         </div>
+      </div>
 
    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
