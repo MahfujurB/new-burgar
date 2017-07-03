@@ -319,3 +319,11 @@ transition-delay:.2s;
     width:100%;
     height:auto;
 }
+.icon img{
+	padding: 75px;
+	transition:all .2s ease-in-out;
+}
+
+.icon img:hover{
+	transform:scale(1.2);
+}
